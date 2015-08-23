@@ -3,7 +3,7 @@
 var shark = require('shark.io');
 var sleep = require('sleep');
 
-shark.init('127.0.0.1:6969');
+shark.init();
 var loop = shark.loop;
 var gpio;
 shark.setup.on('open',function(event){
