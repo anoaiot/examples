@@ -2,7 +2,7 @@
 
 var shark = require('shark.io');
 
-shark.init('127.0.0.1:6969');
+shark.init();
 var setup = shark.setup;
 
 setup.on('open',function(event){
